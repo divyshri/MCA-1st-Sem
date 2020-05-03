@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title></title>
+        
+        <style>
+            div {
+   position: absolute;
+                left: 30%; right: 20%;  bottom: 30%; top: 10%; 
+                     }
+            header
+            {
+                font-family: Cambria; font-size: 20px; position: absolute; background-color: white;
+                color:black; width: 99%;
+            }
+            #Jammu_Kashmir
+            {
+                position: absolute;	left:610px;	top:105px;	color:black;
+             }
+			#Punjab
+            {
+                position: absolute;	left:600px;	top:175px;	color:black;
+             }
+			 #Delhi
+             {
+				position: absolute;	left:620px;	top:210px;	color:black;
+            }
+			#Rajasthan
+             {
+				position: absolute;	left:542px;	top:252px;	color:black;
+            }
+			#Uttar_Pradesh
+             {
+				position: absolute;	left:680px;	top:255px;	color:black;
+            }
+			
+			
+			#Himachal_Pradesh
+            {
+				position: absolute;	left:650px;	top:160px;	color:black;
+            }
+            #Maharashtra
+            {
+				position: absolute;	left:560px;	top:398px;	color:black;
+            }
+            #Gujrat
+             {
+				position: absolute;	Left:492px;	top:325px;	color:black;
+            }
+            #Chhattisgarh
+             {
+				position: absolute;	Left:732px;	top:355px;	color:black;
+            }
+			
+            #Madhya_Pradesh
+              {
+				position: absolute;	left:610px;	top:329px;	color:black;
+            }
+			#Bihar
+              {
+				position: absolute;	left:810px;	top:285px;	color:black;
+            }       
+            #Telangana
+             {
+				position: absolute; left:650px; top:430px;	color:black;
+            }
+			#Goa
+             {
+				position: absolute; left:525px; top:480px;	color:black;
+            }
+			
+            #Tamilnadu
+             {
+				position: absolute; left:650px; top:566px;	color:black;
+            }
+            #Kerala
+            {
+				position: absolute; left:590px; top:588px;	color:black;
+            }
+            #Karnataka
+            {
+				position: absolute;	left:574px;	top:500px;	color:black;
+            }
+            #Andhra_pradesh
+            {
+				position: absolute;	left:653px;	top:485px;	color:black;
+            }
+        </style>
+        <script>
+            function somefunction(e)
+            {
+                var result_x =document.getElementById('x_cordinate');
+                 var result_y =document.getElementById('y_cordinate');
+                result_x.innerHTML =e.clientX;
+                result_y.innerHTML =e.clientY;
+            }
+            document.onmousemove =somefunction;
+            function big(x)
+            {
+                x.style.fontSize="20px";
+				x.style.bold;
+            }
+            function normal(x)
+            {
+                x.style.fontSize="15px";
+                
+            }
+        </script>
+    </head>
+    
+    <body>
+        <!-- <header> <h1> <center>Tourist Places </center></h1>  </header> -->
+        <div>  <img src="indiamap.jpg" width="670" height="570" > </div>
+        <h2 id="x_cordinate">0</h2>
+        <h2 id="y_cordinate">0</h2>
+		<a  onmouseover="big(this)" onmouseout="normal(this)" id="Punjab" href="Punjab.html"> Punjab </a>
+		
+	<a  onmouseover="big(this)" onmouseout="normal(this)" id="Himachal_Pradesh" href="Himachal_Pradesh.html"> Himachal_Pradesh </a>
+	<a  onmouseover="big(this)" onmouseout="normal(this)" id="Bihar" href="Bihar.html"> Bihar </a>
+	<a  onmouseover="big(this)" onmouseout="normal(this)" id="Chhattisgarh" href="Chhattisgarh.html"> Chhattisgarh </a>
+	<a  onmouseover="big(this)" onmouseout="normal(this)" id="Telangana" href="Telangana.html"> Telangana </a>
+	<a  onmouseover="big(this)" onmouseout="normal(this)" id="Goa" href="Goa.html"> Goa </a>
+	<a  onmouseover="big(this)" onmouseout="normal(this)" id="Uttar_Pradesh" href="Uttar_Pradesh.html"> Uttar_Pradesh </a>
+        <a  onmouseover="big(this)" onmouseout="normal(this)" id="Jammu_Kashmir" href="Jammu_Kashmir.html"> Jammu_Kashmir </a>
+        <a onmouseover="big(this)" onmouseout="normal(this)" id="Maharashtra" href="Maharashtra.html"> Maharashtra</a>
+        <a onmouseover="big(this)" onmouseout="normal(this)" id="Gujrat" href="Gujrat.html"> Gujrat</a>
+        <a onmouseover="big(this)" onmouseout="normal(this)" id="Delhi" href="Delhi.html"> Delhi</a>
+        <a onmouseover="big(this)" onmouseout="normal(this)" id="Madhya_Pradesh" href="Madhya_Pradesh.html"> Madhya Pradesh</a>
+        <a onmouseover="big(this)" onmouseout="normal(this)" id="Rajasthan" href="Rajasthan.html"> Rajasthan</a>
+        <a onmouseover="big(this)" onmouseout="normal(this)" id="Tamilnadu" href="Tamilnadu.html"> Tamilnadu</a>
+        <a onmouseover="big(this)" onmouseout="normal(this)" id="Kerala" href="Kerala.html"> Kerala</a>
+        <a onmouseover="big(this)" onmouseout="normal(this)" id="Andhra_pradesh" href="Andhra_Pradesh.html">Andhra_pradesh</a>
+        <a onmouseover="big(this)" onmouseout="normal(this)" id="Karnataka" href="Karnataka.html"> Karnataka</a>
+    
+    </body>
+
+
+
+</html>
